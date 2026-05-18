@@ -1,18 +1,9 @@
 #!/usr/bin/env python3
-"""
-Trade Reconciliation Engine — Project Setup Script
 
-Place this file INSIDE your trade-reconciliation-engine folder, then run:
-  python3 setup.py
-
-All 48 project files will be created in the same folder as this script.
-Then open VS Code:
-  code .
-"""
 
 import os, sys
 
-# Write everything relative to the folder this script lives in
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
 FILES = {
